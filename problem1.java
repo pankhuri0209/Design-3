@@ -19,7 +19,7 @@ public class problem1 {
   }
     public class NestedIterator implements Iterator<Integer> {
 
-        private Stack<NestedInteger> stack;
+        private Stack<NestedInteger> stack;;
 
         public NestedIterator(List<NestedInteger> nestedList) {
             stack= new Stack<>();
